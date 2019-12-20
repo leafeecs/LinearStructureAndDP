@@ -3,7 +3,7 @@
 ## Concepts of Recursions
 
 * Repeating Problems
-* Divide and Conquer
+* **Divide and Conquer**
 * Recursion Function Call
 * Recursion Escape
 * Recursion Depth
