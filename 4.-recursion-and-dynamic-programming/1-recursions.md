@@ -33,7 +33,7 @@ class Department
 
 ```python
 def factorial(n):
-    if n = 0:
+    if n == 0:
         return 1
     elif n > 0:
         return n * (n - 1) * (n - 2) * . . . * 1
@@ -44,7 +44,7 @@ We can change return expression as below
 ```python
 def factorial(n):
     # Base Case, i.e. Termination Term
-    if n = 0:
+    if n == 0:
         return 1
     elif n > 0:
         return n * factorial(n - 1)
