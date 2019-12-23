@@ -2,7 +2,7 @@
 
 ## Merge Sort
 
-* Merge sort: Onee example of recursive programming
+* Merge sort: One example of recursive programming
   * Decompose into two smaller lists
   * Aggregate to one larger and sorted list
 
@@ -70,13 +70,16 @@ print(lstRandom)
     * Even though the function is executed before with the same parameters
 * For instance, Fibonacci\(4\)
 
-  ![](.gitbook/assets/image%20%282%29.png)
+  ![](.gitbook/assets/image%20%286%29.png)
 
   * Has 2 repeated calls of F\(0\)
   * Has 3 repeated calls of F\(1\)
   * Has 2 repeated calls of F\(2\)
 
 * These are unnecessarily taking time and space
+* O\(2ⁿ\)
 * How to solve this problem?
   * Using **Dynamic Programming**, which is a store somewhere then you don't need to use twice.
+
+
 
