@@ -1,4 +1,4 @@
-# 4\) Fibonacci Sequence in D.P.
+# 4. Fibonacci Sequence in D.P.
 
 ## Implementation example: Fibonacci Sequence in Dynamic Programming
 

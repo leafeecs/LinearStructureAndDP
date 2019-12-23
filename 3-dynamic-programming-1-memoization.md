@@ -1,4 +1,4 @@
-# 3\) Dynamic Programming 1\(Memoization\)
+# 3. Dynamic Programming 1\(Memoization\)
 
 ## Dynamic Programming
 

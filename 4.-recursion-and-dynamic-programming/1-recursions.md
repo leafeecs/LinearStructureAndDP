@@ -1,4 +1,4 @@
-# 1\) Recursions
+# 1. Recursions
 
 ## Concepts of Recursions
 

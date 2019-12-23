@@ -1,4 +1,4 @@
-# 2\) Merge Sort and Problems in Recursions
+# 2. Merge Sort and Problems in Recursions
 
 ## Merge Sort
 

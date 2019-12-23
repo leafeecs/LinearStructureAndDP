@@ -1,4 +1,4 @@
-# 5\) Process of Assembly Line Scheduling
+# 5. Process of Assembly Line Scheduling
 
 ​
 
@@ -121,4 +121,8 @@ print("Fastest production time:", time)
 lines.printTracing(lineTracing)
 
 ```
+
+![Result of using Dynamic Programming \(Assembly Lines\)](.gitbook/assets/2019-12-22-9.31.05.png)
+
+
 
