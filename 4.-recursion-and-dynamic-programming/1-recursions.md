@@ -27,11 +27,12 @@ class Department
         return sum
 ```
 
-## More Examples 
+## More Examples \(Repeating Problems\)
 
 ### 1. Factorial
 
 ```python
+# Pseudocode
 def factorial(n):
     if n == 0:
         return 1
@@ -49,6 +50,74 @@ def factorial(n):
     elif n > 0:
         return n * factorial(n - 1)
 ```
+
+### 2. Great Common Divisor\(GCD\)
+
+* Euclid's Algorithm 
+  * **GCD\(A, B\) = GCD\(B, A mod B\)**
+  * GCD\(A, 0\) = A
+* Example
+  * GCD\(32, 24\) =
+  * GCD\(24, 8\) =
+  * GCD\(8, 0\) = 8
+
+### **Summary: Commonality**
+
+* Repeating Function Calls
+* Reducing Parameters
+* Just like a mathematical induction
+
+
+
+## Recursion
+
+* A programing method to handle the repeating items in a  self-similar way
+* Often in a form of calling a function within the function
+
+
+
+```python
+# Pseudocode
+def functionA(target)
+    ...
+    functionA(target')
+    ...
+    if (escape_condition)
+        return A
+```
+
+```python
+def fibonacci(n):
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    result = fibonacci(n - 1) + fibonacci(n - 2)
+    return result
+    
+for i in range(0, 10):
+    print(fibonacci(i), end = ' ')
+```
+
+### Recursions and Stackframe
+
+* Recursion of functions
+  * Increase the items in the stackframe
+    * Stackframe is a stack storing your function call history
+      * Push: When a function is invoked
+      * Pop: When a function hits return or ends
+      * What to store?
+        * Local variables\(within function variables\) and function call parameters
+
+![fibonacci\(4\)](../.gitbook/assets/2019-12-22-6.37.30%20%281%29.png)
+
+![stackframe of fibonacci\(4\)](../.gitbook/assets/2019-12-22-6.38.45.png)
+
+* In stackframe, there are
+  * R.A\(Return Address\): Store which function invoked
+  * parameters 
+
+
 
 
 
